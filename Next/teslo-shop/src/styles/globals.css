@@ -1,0 +1,85 @@
+@import "react-slideshow-image/dist/styles.css";
+
+body {
+  background-color: #f6f6f680;
+}
+
+.css-328icl-MuiPaper-root-MuiAppBar-root {
+  box-shadow: none !important;
+  height: 64px;
+  border-bottom: 1px solid #e2e2e2 !important;
+  color: #aeaeae !important;
+  display: flex;
+  justify-content: center;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+}
+
+.circular-btn {
+  border-radius: 30px;
+  background-color: #3a64d8;
+  color: white;
+}
+
+.circular-btn:hover {
+  background-color: #274484;
+}
+
+.disable-btn {
+  border-radius: 30px;
+  background-color: #9ca3b8;
+  color: white;
+}
+
+.disable-btn:hover {
+  background-color: #5b606b;
+}
+
+.primary-btn {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.primary-btn:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.input {
+  border-radius: 1rem;
+}
+
+.fade-in {
+  animation: fadeIn 5s;
+}
+
+/* Loader style */
+.loader {
+  border: 2px solid #f3f3f3;
+  border-top: 2px solid black;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+/* Loader animation */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
